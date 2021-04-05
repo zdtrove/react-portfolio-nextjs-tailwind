@@ -31,13 +31,13 @@ const Sidebar = () => {
                 download="blink.jpg"
             ><GiTie className='w-6 h-6' />Download Resume</a>
             <div className='flex justify-around w-9/12 mx-auto my-5 text-green md:w-full'>
-                <a href=''>
+                <a href='https://www.youtube.com/'>
                     <AiFillYoutube className='w-8 h-8 cursor-pointer' aria-label="Youtube"/>
                 </a>
-                <a href=''>
+                <a href='https://www.linkedin.com/'>
                     <AiFillGithub className='w-8 h-8 cursor-pointer' aria-label="Linkedin"/>
                 </a>
-                <a href=''>
+                <a href='https://github.com/'>
                     <AiFillLinkedin className='w-8 h-8 cursor-pointer' aria-label="Github"/>
                 </a>
             </div>
