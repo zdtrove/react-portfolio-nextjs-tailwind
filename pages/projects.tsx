@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Head from "next/head";
 import { useState } from "react";
 import { fadeInUp, routeAnimation, stagger } from "../animations";
 import ProjectCart from "../components/ProjectCart"
@@ -33,6 +34,9 @@ const Projects = () => {
             className="px-5 py-2 overflow-y-scroll" 
             style={{ height: '65vh' }}
         >
+            <Head>
+                <title>NextJS React Tailwind | Project</title>
+            </Head>
             <ProjectsNavbar
                 handlerFilterCategory={handlerFilterCategory}
                 active={active}

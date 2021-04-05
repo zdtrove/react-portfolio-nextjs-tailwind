@@ -32,13 +32,13 @@ const Sidebar = () => {
             ><GiTie className='w-6 h-6' />Download Resume</a>
             <div className='flex justify-around w-9/12 mx-auto my-5 text-green md:w-full'>
                 <a href=''>
-                    <AiFillYoutube className='w-8 h-8 cursor-pointer' />
+                    <AiFillYoutube className='w-8 h-8 cursor-pointer' aria-label="Youtube"/>
                 </a>
                 <a href=''>
-                    <AiFillGithub className='w-8 h-8 cursor-pointer' />
+                    <AiFillGithub className='w-8 h-8 cursor-pointer' aria-label="Linkedin"/>
                 </a>
                 <a href=''>
-                    <AiFillLinkedin className='w-8 h-8 cursor-pointer' />
+                    <AiFillLinkedin className='w-8 h-8 cursor-pointer' aria-label="Github"/>
                 </a>
             </div>
             <div className="py-4 my-5 bg-gray-200 dark:bg-dark-200" style={{ marginLeft: '-1rem', marginRight: '-1rem' }}>
